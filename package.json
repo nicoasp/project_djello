@@ -1,0 +1,31 @@
+{
+  "name": "project_djello",
+  "version": "1.0.0",
+  "description": "Project management with that great wobbly taste.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "seed": "node seeds",
+    "c": "node repl.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vikingeducation/project_djello.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vikingeducation/project_djello/issues"
+  },
+  "homepage": "https://github.com/vikingeducation/project_djello#readme",
+  "dependencies": {
+    "bcrypt": "^1.0.2",
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "md5": "^2.2.1",
+    "mongoose": "^4.10.2",
+    "mongoose-unique-validator": "^1.0.5"
+  }
+}
